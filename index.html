@@ -1,0 +1,86 @@
+<html>
+<style>
+    .box {
+        width: 50px;
+        height: 100px;
+        background-color: #fff;
+        display: inline-block;
+        border: 3px solid #000;
+    }
+
+    .selected {
+        border: 3px solid #000;
+        background-color: #000;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .lista p {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="lista">
+            <ul data-listindex="0" id="0">
+                <li class="box selected"></li>
+                <li class="box"></li>
+                <li class="box"></li>
+                <li class="box"></li>
+                <li class="box"></li>
+                <li class="box"></li>
+            </ul>
+        </div>
+        <div class="lista">
+            <ul data-listindex="0" id="1">
+                <li class="box"></li>
+                <li class="box"></li>
+                <li class="box"></li>
+                <li class="box"></li>
+                <li class="box"></li>
+                <li class="box"></li>
+            </ul>
+        </div>
+        <div class="lista">
+            <ul data-listindex="1" id="2">
+                <li class="box"></li>
+                <li class="box"></li>
+                <li class="box"></li>
+                <li class="box"></li>
+                <li class="box"></li>
+                <li class="box"></li>
+            </ul>
+        </div>
+        <div class="lista">
+            <ul data-listindex="1" id="3">
+                <li class="box"></li>
+                <li class="box"></li>
+                <li class="box"></li>
+                <li class="box"></li>
+                <li class="box"></li>
+                <li class="box"></li>
+            </ul>
+        </div>
+        <div class="lista">
+            <ul data-listindex="1" id="4">
+                <li class="box"></li>
+                <li class="box"></li>
+                <li class="box"></li>
+                <li class="box"></li>
+                <li class="box"></li>
+                <li class="box"></li>
+            </ul>
+        </div>
+    </div>
+</body>
+<script src="./index.js"></script>
+
+</html>
